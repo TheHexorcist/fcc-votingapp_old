@@ -5,6 +5,12 @@ var routes = require('./app/routes/index.js');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var session = require('express-session');
+var url = require('url');
+
+//var jQuery = require('jquery');
+//jQuery('btn-genpoll-cats');
+//var jQuery = require('jquery')(require("jsdom").jsdom().parentWindow);
+
 
 var app = express();
 require('dotenv').load();
